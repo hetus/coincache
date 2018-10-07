@@ -55,7 +55,7 @@ func main() {
 	time.Sleep(1 * time.Minute)
 	cc.Stop()
 	if cfg.Debug {
-		fmt.Println("debug: models saved:", len(markets))
+		fmt.Println("debug: markets saved:", len(markets))
 	}
 
 	// The following is an example of fetching all of the market
